@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-label="BitLLM">
+  <title>BitLLM</title>
+  <desc>BitLLM square mark: a block B and a green terminal cursor on a dark code tile.</desc>
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="44%" r="60%">
+      <stop offset="0" stop-color="#5ddb96" stop-opacity=".17"/>
+      <stop offset="1" stop-color="#5ddb96" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse">
+      <path d="M64 0H0V64" fill="none" stroke="#dce6df" stroke-opacity=".035" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <rect width="1024" height="1024" fill="#080b09"/>
+  <rect width="1024" height="1024" fill="url(#grid)"/>
+  <rect width="1024" height="1024" fill="url(#glow)"/>
+
+  <rect x="24" y="24" width="976" height="976" fill="none" stroke="#26332b" stroke-width="2"/>
+  <g fill="none" stroke="#5ddb96" stroke-opacity=".42" stroke-width="6" stroke-linecap="square">
+    <path d="M58 154V58H154"/>
+    <path d="M870 58H966V154"/>
+    <path d="M966 870V966H870"/>
+    <path d="M154 966H58V870"/>
+  </g>
+
+  <g fill="none" stroke="#5ddb96" stroke-opacity=".20" stroke-width="3">
+    <path d="M820 230 900 300 760 320Z"/>
+  </g>
+  <g fill="#5ddb96">
+    <circle cx="820" cy="230" r="10" fill-opacity=".55"/>
+    <circle cx="900" cy="300" r="10" fill-opacity=".55"/>
+    <circle cx="760" cy="320" r="10" fill-opacity=".55"/>
+  </g>
+
+  <g fill="none" stroke="#e6efe9" stroke-width="88" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M234 300V724"/>
+    <path d="M234 300H480C570 300 614 350 614 412C614 474 570 516 480 516H234"/>
+    <path d="M234 516H500C600 516 638 566 638 628C638 692 600 724 500 724H234"/>
+  </g>
+  <rect x="714" y="680" width="120" height="88" fill="#5ddb96"/>
+  <rect x="1" y="1" width="1022" height="1022" fill="none" stroke="#26332b" stroke-width="2"/>
+</svg>
