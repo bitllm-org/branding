@@ -13,6 +13,7 @@ underscore in green. Nothing else. The underscore is the terminal cursor.
 | `logo.png` | primary PNG export, 1024x1024 |
 | `logo-512.png` | 512x512 PNG |
 | `logo-128.png` | 128x128 PNG |
+| `fonts/` | the interface fonts: see [fonts/README.md](fonts/README.md) |
 
 The SVG is outlined, so it renders the same without the font installed.
 
@@ -37,8 +38,11 @@ used only for the wordmark cursor, the online dot, the selected model, and a suc
 
 ## Type
 
-JetBrains Mono Bold, OFL. The dashboard uses a system monospace stack; the logo is outlined from
-JetBrains Mono so the file is self-contained.
+JetBrains Mono for the wordmark, headings, labels and code. Arimo for prose. Both are OFL.
+
+The site and the dashboard ship the same files from `fonts/`, so every OS shows the same letters.
+System fonts are only a fallback, for characters the files do not cover. The logo is outlined from
+JetBrains Mono Bold so the file is self-contained.
 
 ## Usage
 
