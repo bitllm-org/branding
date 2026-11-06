@@ -20,7 +20,7 @@ name, which restricts subsetting. Both licenses are in this folder.
 ## How they were made
 
 Arimo starts as a variable font, so make the two static weights first. Then subset with
-[fonttools](https://github.com/fonttools/fonttools):
+[fonttools](https://github.com/fonttools/fonttools) (`pip install fonttools brotli`; WOFF2 output needs brotli):
 
 ```sh
 fonttools varLib.instancer "Arimo[wght].ttf" wght=400 -o Arimo-400.ttf --update-name-table
